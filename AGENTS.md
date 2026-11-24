@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Website architecture
+- Keep shared navigation and footer in the root shell and named content in separate TanStack routes so every page is directly accessible.
+- Keep price estimates in the shared content module and test concrete amounts to prevent inconsistent plan pricing.
+- Until a commercial channel is supplied, contact details stay local and the form downloads a brief without claiming submission.
